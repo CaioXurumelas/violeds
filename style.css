@@ -27,7 +27,37 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 #banner .imagem{padding:0;}
 
-#banner .texto{padding: 100px 250px 0px 0px;text-align: right;}
+#banner .texto{text-align: center;margin: auto;}
 
 #banner h1{font-size: 40px;font-weight: 300;}
 #banner h1 span{display: block;font-weight: 600;}
+
+#banner a{
+	font-size: 26px;
+    background: #a6248e;
+    border-width: 1px!important;
+    border-color: #a6248e;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#banner a:hover{
+	font-size: 32px;
+    background: #fff;
+    color: #a6248e;
+    border-width: 1px!important;
+    border-color: #a6248e;
+    border-radius: 30px;
+}
+
+#familia .row{background: url(https://www.violeds.com.br/wp-content/themes/Divi/images/familia.png) no-repeat 100% top;}
+#familia .col-md-6{padding: 0 100px 200px 200px}
+#familia h1{font-size: 42px;color: #a6248e;letter-spacing: -2px}
+#familia span{font-size: 90px;}
+#familia p{font-size: 20px;}
+
+#video iframe{width: 70%;height: 400px;}
