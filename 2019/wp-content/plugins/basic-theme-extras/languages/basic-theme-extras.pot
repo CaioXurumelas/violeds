@@ -1,0 +1,132 @@
+# Copyright (C) 2016 Basic Theme Extras
+# This file is distributed under the same license as the Basic Theme Extras package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Basic Theme Extras 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/basic-theme-"
+"extras\n"
+"POT-Creation-Date: 2016-11-27 19:49:40+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: basic-theme-extras.php:50 basic-theme-extras.php:105
+msgid "Instagram"
+msgstr ""
+
+#: basic-theme-extras.php:53
+msgid "Displays your latest Instagram photos."
+msgstr ""
+
+#: basic-theme-extras.php:113 basic-theme-extras.php:275
+#: basic-theme-extras.php:362
+msgid "Title"
+msgstr ""
+
+#: basic-theme-extras.php:114
+msgid "Username"
+msgstr ""
+
+#: basic-theme-extras.php:115 basic-theme-extras.php:283
+msgid "Number of photos"
+msgstr ""
+
+#: basic-theme-extras.php:116
+msgid "Photo size"
+msgstr ""
+
+#: basic-theme-extras.php:118
+msgid "Thumbnail"
+msgstr ""
+
+#: basic-theme-extras.php:119
+msgid "Small"
+msgstr ""
+
+#: basic-theme-extras.php:120
+msgid "Large"
+msgstr ""
+
+#: basic-theme-extras.php:121
+msgid "Original"
+msgstr ""
+
+#: basic-theme-extras.php:124
+msgid "Open links in"
+msgstr ""
+
+#: basic-theme-extras.php:126
+msgid "Current window (_self)"
+msgstr ""
+
+#: basic-theme-extras.php:127
+msgid "New window (_blank)"
+msgstr ""
+
+#: basic-theme-extras.php:130
+msgid "Link text"
+msgstr ""
+
+#: basic-theme-extras.php:150
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: basic-theme-extras.php:152
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: basic-theme-extras.php:157 basic-theme-extras.php:161
+#: basic-theme-extras.php:164
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: basic-theme-extras.php:187
+msgid "Instagram Image"
+msgstr ""
+
+#: basic-theme-extras.php:213
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: basic-theme-extras.php:231
+msgid "Basic - Flickr Widget"
+msgstr ""
+
+#: basic-theme-extras.php:232
+msgid "Displays your latest Flickr photos."
+msgstr ""
+
+#: basic-theme-extras.php:240 basic-theme-extras.php:270
+msgid "Flickr"
+msgstr ""
+
+#: basic-theme-extras.php:279
+msgid "Flickr ID"
+msgstr ""
+
+#: basic-theme-extras.php:317
+msgid "Basic - Recent Posts"
+msgstr ""
+
+#: basic-theme-extras.php:319
+msgid "Displays the most recent blog posts with thumbnails."
+msgstr ""
+
+#: basic-theme-extras.php:359
+msgid "Recent Posts"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Basic Theme Extras"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Extra functionality for the Basic theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Caden Grant"
+msgstr ""
