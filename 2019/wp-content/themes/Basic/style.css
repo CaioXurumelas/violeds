@@ -152,6 +152,21 @@ div.wpforms-container-full .wpforms-form input[type=date], div.wpforms-container
 	color: #999 !important;
 }
 
+.bwg_ctrl_btn_container{display: none}
+.bwg_toggle_container{display: none;}
+.bwg_btn_container{background: #333}
+#spider_popup_left-ico, #spider_popup_right-ico{background-color: transparent !important;}
+.spider_popup_close_fullscreen{color: #dadada !important;}
+
+#galeria{
+	padding-top:100px; 
+}
+
+#bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-item{width: 300px !important;max-width: 300px !important;}
+
+#galeria .col-md-4{float: left;}
+#galeria .col-md-8{float: left;}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,

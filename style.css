@@ -61,3 +61,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 #familia p{font-size: 20px;}
 
 #video iframe{width: 70%;height: 400px;}
+
+.bwg_ctrl_btn_container{display: none}
+.bwg_toggle_container{display: none;}
+.bwg_btn_container{background: #333}
