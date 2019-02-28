@@ -62,6 +62,18 @@ Text Domain: Basic
  * http://cssreset.com
  */
 
+ #footer span{
+ 	margin: 0 20px;
+ }
+
+.chamada .col-md-8{
+	float: left;
+}
+
+.chamada .col-md-4{
+	float: left;
+}
+
 .icones h4{
  	font-weight: 400;
  }
@@ -166,6 +178,19 @@ div.wpforms-container-full .wpforms-form input[type=date], div.wpforms-container
 
 #galeria .col-md-4{float: left;}
 #galeria .col-md-8{float: left;}
+
+
+@media only screen and ( max-width: 767px ) {
+	.texto{padding: 40px;}
+	.texto h1{font-size: 32px;}
+	.texto span{font-size: 28px;}
+	.col-md-3 img{padding:0 90px}
+	#video iframe{height: 300px;}
+	#footer span{margin: 0 10px;}
+}
+/* ------------ */
+
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -2702,7 +2727,7 @@ nav.pagination .nav-links .current {
 	width: 100%;
 	clear: both;
 	background: #f9f9f9;
-	padding: 6.5em 0 6em;
+	padding: 20px 0;
 }
 
 #footer,
