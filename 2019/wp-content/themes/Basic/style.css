@@ -90,13 +90,13 @@ Text Domain: Basic
 .texto h1{
 	font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 100;
-    font-size: 40px;
+    font-size: 36px;
     line-height: 1em;
 }
 
 .texto span{
 	font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
-    font-size: 40px;
+    font-size: 32px;
     color: #464857;
     font-weight: 500;
     display: block;
@@ -233,12 +233,14 @@ div.wpforms-container-full .wpforms-form input[type=date], div.wpforms-container
 
 #loja iframe{
 	width: 100%;
-	height: 1000px
+	height: 1000px;
+	margin-top:-160px;
 }
 
-.barra-inicial.fundo-secundario{
-	display: none !important;
+#loja.container-fluid{
+	overflow: auto;
 }
+
 
 @media only screen and ( max-width: 767px ) {
 	.texto{padding: 40px;}
