@@ -129,12 +129,63 @@ Text Domain: Basic
 }
 
 .col-md-3 img{
-	padding:0 60px; 
+	display: inline-block;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	padding: 70px;
+	margin-bottom: -60px;
+}
+
+.col-md-3 img:hover{
+	padding: 60px;
 }
 
 .icones{
-	padding-top: 100px !important;
-    padding-bottom: 100px !important;
+	padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    padding-left: 200px;
+    padding-right: 200px;
+    background: #f4f4f4;
+    margin: 100px 0;
+}
+
+.banners img{
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+
+.banners img:hover{
+	-webkit-filter: brightness(1.5);
+}
+
+.banners .col-md-12{
+	display: block;
+    text-align: center;
+    margin-top: 595px;
+    margin-bottom: 50px;
+}
+
+.banners a{
+	background: #a6248c;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;
+}
+
+.banners a:hover{
+	background: #fff;
+    color: #a6248c;
+    font-size: 26px;
+    border: 1px solid #a6248c;
+}
+
+#news{
+	padding: 50px 200px;
+    background: #f4f4f4;
 }
 
 div.wpforms-container-full .wpforms-form .wpforms-submit-container{float: right;}
@@ -162,6 +213,7 @@ div.wpforms-container-full .wpforms-form input[type=date], div.wpforms-container
 	font-size: 18px !important;
 	padding: 15px !important;
 	color: #999 !important;
+	background-color: transparent !important;
 }
 
 .bwg_ctrl_btn_container{display: none}
@@ -179,14 +231,27 @@ div.wpforms-container-full .wpforms-form input[type=date], div.wpforms-container
 #galeria .col-md-4{float: left;}
 #galeria .col-md-8{float: left;}
 
+#loja iframe{
+	width: 100%;
+	height: 1000px
+}
+
+.barra-inicial.fundo-secundario{
+	display: none !important;
+}
 
 @media only screen and ( max-width: 767px ) {
 	.texto{padding: 40px;}
 	.texto h1{font-size: 32px;}
 	.texto span{font-size: 28px;}
-	.col-md-3 img{padding:0 90px}
+	.col-md-3 img{padding:0 120px}
 	#video iframe{height: 300px;}
 	#footer span{margin: 0 10px;}
+	.icones{padding-left: 15px;padding-right: 15px}
+	.col-md-3 img:hover{padding:0 110px;}
+	.banners .col-md-12{margin-top: 730px;}
+	#news{padding: 50px 30px;}
+
 }
 /* ------------ */
 
