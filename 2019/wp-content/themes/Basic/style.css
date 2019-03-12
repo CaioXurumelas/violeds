@@ -100,6 +100,7 @@ Text Domain: Basic
     color: #464857;
     font-weight: 500;
     display: block;
+    line-height: 40px;
 }
 
 .texto img{
